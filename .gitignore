@@ -1,0 +1,11 @@
+# Vertrauliche Daten nie ins Repository
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Betriebssystem und Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

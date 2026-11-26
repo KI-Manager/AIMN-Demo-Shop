@@ -1,0 +1,1 @@
+try{var m=localStorage.getItem("aimn-theme");if(m!=="dark"&&m!=="system")m="light";var d=m==="dark"||(m==="system"&&matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.dataset.mode=d?"dark":"light";document.documentElement.dataset.pref=m}catch(e){document.documentElement.dataset.mode="light";document.documentElement.dataset.pref="light"}
